@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package stock;
+
+option go_package="github.com/cmuench/grpc-demo/protos";
+option php_namespace="MuenchDev\\GrpcDemo";
+
+service Stock {
+  rpc Update(StockUpdateRequest) returns (StockUpdateResponse) {}
+}
+
+message StockUpdateRequest {
+  string source_code = 1;
+  string sku = 2;
+  float qty = 3;
+}
+
+message StockUpdateResponse {
+  bool ack = 1;
+}

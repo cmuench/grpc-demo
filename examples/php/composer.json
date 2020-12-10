@@ -1,0 +1,21 @@
+{
+    "name": "muench-dev/grpc-demo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Münch",
+            "email": "christian@muench.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "grpc/grpc": "^1.30"
+    },
+    "autoload": {
+        "psr-4": {
+            "MuenchDev\\": "MuenchDev",
+            "GPBMetadata\\": "GPBMetadata"
+        }
+    }
+}
