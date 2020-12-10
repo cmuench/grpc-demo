@@ -7,7 +7,7 @@ There is a PHP client example available in directory "examples/php".
 
 There is a presentation about that example project:
 
-[[[/images/slide-deck.png]]][1]
+[![](/doc/images/slide-deck.png)][1]
 
 ---
 
