@@ -55,6 +55,9 @@ cd examples/php
 ddev start
 ```
 
+The startup process could take some minutes. The required PHP modules (protobuf, grpc) are compiled during startup 
+inside the Docker container.
+
 Open the project in your browser.
 URL: <https://php-grpc-demo.ddev.site>
 
